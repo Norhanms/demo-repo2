@@ -156,3 +156,33 @@ It will raise an error, you have to define the branch as upstream to push files 
 
 or you can write for short '-u' instead of '--set-upstream'
 
+## How to delete an branch
+
+### creating a new branch, pull request, merge it to the master branch and delete it
+
+Create a new branch and name it 'mytestbranch'
+
+```
+
+> git checkout -b mytestbranch
+
+```
+Modify the readme file, as I am writing now in it to explain the steps of deleting a branch, then stage and commit
+
+```
+
+> git add .
+> git commit -m "update the readme"
+
+```
+
+Then push the new branch to github
+
+```
+
+> git push -u origin mytestbranch
+
+```
+
+Click on the green button 'compare and pull request' to merge the new branch with the master
+ Write a comment and then click 'merge pull request'
