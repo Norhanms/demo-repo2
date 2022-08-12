@@ -131,6 +131,7 @@ Stage and commit all the changes
 ```
 
 > git add .
-> git commit -m " updated the readme file with all the expliantion  and add index.html"
+> git commit -m "updated the readme file with all the expliantion  and add index.html"
 
 ```
+
