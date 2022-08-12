@@ -116,6 +116,10 @@ To unstage write :
 
 ```
 
+## Working in the new branch
+
+### stage, commit and push
+
 Now lets enter to branch 'feature-readme-instructions'
 
 ```
@@ -134,4 +138,21 @@ Stage and commit all the changes
 > git commit -m "updated the readme file with all the expliantion  and add index.html"
 
 ```
+
+Now try to push the new branch to github, lets write
+
+```
+> git push
+
+```
+
+It will raise an error, you have to define the branch as upstream to push files to
+
+```
+
+> git push --set-upstream origin feature-readme-instructions
+
+```
+
+or you can write for short '-u' instead of '--set-upstream'
 
