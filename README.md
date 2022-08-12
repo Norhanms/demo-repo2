@@ -135,3 +135,20 @@ Stage and commit all the changes
 
 ```
 
+Now try to push the new branch to github, lets write
+
+```
+> git push
+
+```
+
+It will raise an error, you have to define the branch as upstream to push files to
+
+```
+
+> git push --set-upstream origin feature-readme-instructions
+
+```
+
+or you can write for short '-u' instead of '--set-upstream'
+
