@@ -174,4 +174,12 @@ Modify the readme file, as I am writing now in it to explain the steps of deleti
 
 ```
 
+Then push the new branch to github
 
+```
+
+> git push -u origin mytestbranch
+
+```
+
+Click on the green button 'compare and pull request' to merge the new branch with the master
