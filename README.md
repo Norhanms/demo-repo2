@@ -53,4 +53,16 @@ Now you can push the files to the remote github repo
 > git push -u origin master
 ```
 
-this will create a branch called 'master' and push all the files to it
+this will create a branch called 'master' and push all the files to it.
+
+From now you can write only
+
+```
+
+> git push
+```
+
+without the need to write origin master because when add the flag -u which means upstream which means push always to the same repo
+
+
+
