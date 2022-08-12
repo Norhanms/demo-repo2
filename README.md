@@ -158,6 +158,8 @@ or you can write for short '-u' instead of '--set-upstream'
 
 ## How to delete an branch
 
+### creating a new branch, pull request, merge it to the master branch and delete it
+
 Create a new branch and name it 'mytestbranch'
 
 ```
@@ -183,3 +185,4 @@ Then push the new branch to github
 ```
 
 Click on the green button 'compare and pull request' to merge the new branch with the master
+ Write a comment and then click 'merge pull request'
