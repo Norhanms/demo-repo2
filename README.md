@@ -156,3 +156,15 @@ It will raise an error, you have to define the branch as upstream to push files 
 
 or you can write for short '-u' instead of '--set-upstream'
 
+## How to delete an branch
+
+Create a new branch and name it 'mytestbranch'
+
+```
+
+> git checkout -b mytestbranch
+
+```
+Modify the readme file, as I am writing now in it to explain the steps of deleting a branch, then stage and commit
+
+
