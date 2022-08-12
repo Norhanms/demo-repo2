@@ -1,6 +1,6 @@
-# Demo 2
+# Creating a new repository from local machine using vs code editor 
 
-create a new repo from my local machine, it does not exist on github right now.
+Create a new repo from my local machine, it does not exist on github right now.
  we will create it, commit and push all the repo to the github account
  first write the command line:
 
