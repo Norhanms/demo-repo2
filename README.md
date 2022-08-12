@@ -116,6 +116,10 @@ To unstage write :
 
 ```
 
+## Working in the new branch
+
+### stage, commit and push
+
 Now lets enter to branch 'feature-readme-instructions'
 
 ```
