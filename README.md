@@ -186,3 +186,20 @@ Then push the new branch to github
 
 Click on the green button 'compare and pull request' to merge the new branch with the master
  Write a comment and then click 'merge pull request'
+
+ Then to see the merged branch in the local master branch, you have to first change to the master branch and then pull the branch to it
+
+ ```
+
+ > git checkout master
+ > git pull
+
+ ```
+
+
+
+ ### deleting the new branch
+
+ ```
+
+ > git branch -d mytestbranch
