@@ -79,6 +79,7 @@ To create a new branch, type in the following command:
 
 > git checkout -b feature-readme-instructions
 ```
+
  You are switched to work on this branch and if you showed all the existing branches, you will find that this branch is highlighted.
  Type in ``` git branch ``` again to see.
 
@@ -167,6 +168,7 @@ Create a new branch and name it 'mytestbranch'
 > git checkout -b mytestbranch
 
 ```
+
 Modify the readme file, as I am writing now in it to explain the steps of deleting a branch, then stage and commit
 
 ```
@@ -196,10 +198,45 @@ Click on the green button 'compare and pull request' to merge the new branch wit
 
  ```
 
-
-
- ### deleting the new branch
+### deleting the new branch
 
  ```
 
  > git branch -d mytestbranch
+
+  
+  ### Undoing in git
+
+  
+To unstage the changes
+
+```
+
+> git reset
+
+```
+
+To unstage and uncommit  the last commit, HEAD~1 means go the commit one step further
+
+```
+
+> git reset HEAD~1
+
+```
+
+To see all the commits, type in 
+
+```
+
+> git log
+
+```
+
+you can see all the commmit and each one has an id
+you can delete a commit by its id
+
+```
+
+> git reset id
+
+```
