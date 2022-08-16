@@ -203,7 +203,7 @@ Click on the green button 'compare and pull request' to merge the new branch wit
  ```
 
  > git branch -d mytestbranch
-
+```
   
   ### Undoing in git
 
