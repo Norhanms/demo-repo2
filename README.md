@@ -244,4 +244,4 @@ you can delete a commit by its id
 ### Credit
 
 1. [githowto](https://githowto.com/)
-2. [Git and GitHub for Beginners - Crash Course-freecodecamp] (https://www.youtube.com/watch?v=RGOj5yH7evk)
+2. [Git and GitHub for Beginners - Crash Course-freecodecamp](https://www.youtube.com/watch?v=RGOj5yH7evk)
